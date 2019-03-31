@@ -7,6 +7,6 @@ def oxford_comma(array)
   return array.join
   finalAnd = "and #{array[-1]}"
   array.pop
-  return array.join (" and ")
+  return array.join (", ")
 end
 end
